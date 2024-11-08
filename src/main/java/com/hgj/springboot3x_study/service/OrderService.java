@@ -6,4 +6,8 @@ import org.springframework.stereotype.Component;
 @ConditionalOnReadWriteMode
 @Component
 public class OrderService {
+    public OrderService() {
+        System.out.println("加载OrderService");
+
+    }
 }
