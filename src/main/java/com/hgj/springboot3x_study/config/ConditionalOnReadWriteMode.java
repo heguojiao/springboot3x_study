@@ -1,4 +1,4 @@
-package com.hgj.springboot3x_study.configuration;
+package com.hgj.springboot3x_study.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 
